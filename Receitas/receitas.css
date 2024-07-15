@@ -1,0 +1,51 @@
+/* Estilo específico para a área de receitas */
+
+#receitas {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as receitas quebrem linha */
+    justify-content: space-around; /* Centralizar as receitas */
+    align-items: flex-start; /* Alinhar as receitas ao topo */
+    max-width: 1200px; /* Largura máxima das receitas */
+    margin: 0 auto; /* Centralizar na página */
+}
+
+.card {
+    width: 300px; /* Largura fixa de cada receita */
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card ul {
+    margin-bottom: 10px;
+}
+
+.card ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
